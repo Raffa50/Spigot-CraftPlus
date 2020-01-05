@@ -1,0 +1,9 @@
+main: aldrigos.mc.craftplus.CraftPlusPlugin
+name: CraftPlus
+version: '0.1.0.0'
+description: A test plugin
+load: POSTWORLD
+author: Aldrigo Raffaele
+website: spigotmc.org
+prefix: Craft+
+api-version: 1.14
