@@ -55,7 +55,7 @@ public class Recipes {
                 "p p");
 
         r.setIngredient('p', Material.PHANTOM_MEMBRANE);
-        r.setIngredient('w', Material.STRING);
+        r.setIngredient('s', Material.STRING);
 
         return r;
     }
