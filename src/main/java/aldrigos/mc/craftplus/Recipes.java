@@ -20,6 +20,7 @@ public class Recipes {
         );
 
         r.shape("lll",
+                "l l",
                 "tst");
         r.setIngredient('l', Material.LEATHER);
         r.setIngredient('s', Material.LEAD);
@@ -163,6 +164,21 @@ public class Recipes {
         r.setIngredient('h', Material.GOLDEN_HELMET);
         r.setIngredient('e', Material.EMERALD);
         r.setIngredient('g', Material.GOLD_INGOT);
+
+        return r;
+    }
+
+    public Recipe getGoldApple(){
+        var r = new ShapedRecipe(
+                new NamespacedKey(p, "goldenapple"),
+                new ItemStack(Material.GOLDEN_APPLE)
+        );
+
+        r.shape("ggg",
+                "gag",
+                "ggg");
+        r.setIngredient('g', Material.GOLD_BLOCK);
+        r.setIngredient('a', Material.APPLE);
 
         return r;
     }
