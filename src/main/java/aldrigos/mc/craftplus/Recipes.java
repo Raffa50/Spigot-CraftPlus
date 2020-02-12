@@ -107,7 +107,7 @@ public class Recipes {
     public Recipe getGoldHorseArmor(){
         var r = new ShapedRecipe(
                 new NamespacedKey(p, "goldhorsearmor"),
-                new ItemStack(Material.IRON_HORSE_ARMOR)
+                new ItemStack(Material.GOLDEN_HORSE_ARMOR)
         );
 
         r.shape("i i",
@@ -123,7 +123,7 @@ public class Recipes {
     public Recipe getDiamondHorseArmor(){
         var r = new ShapedRecipe(
                 new NamespacedKey(p, "diamondhorsearmor"),
-                new ItemStack(Material.IRON_HORSE_ARMOR)
+                new ItemStack(Material.DIAMOND_HORSE_ARMOR)
         );
 
         r.shape("i i",
