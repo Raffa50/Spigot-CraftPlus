@@ -1,6 +1,6 @@
 main: aldrigos.mc.craftplus.CraftPlusPlugin
 name: CraftPlus
-version: '0.1.1.0'
+version: '0.1.2.0'
 description: Add more recipes!
 load: POSTWORLD
 author: Aldrigo Raffaele
