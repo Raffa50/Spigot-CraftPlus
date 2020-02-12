@@ -26,7 +26,8 @@ public class CraftPlusPlugin extends JavaPlugin {
             recipes.getDiamondHorseArmor(),
             recipes.getQuartz(),
             recipes.getTotem(),
-            recipes.getGoldApple()
+            recipes.getGoldApple(),
+            recipes.getBlazeRod()
         );
 
         getServer().getPluginManager().registerEvents(new ShovelListener(), this);

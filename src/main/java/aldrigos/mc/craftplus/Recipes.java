@@ -182,4 +182,20 @@ public class Recipes {
 
         return r;
     }
+
+    public Recipe getBlazeRod() {
+        var r = new ShapedRecipe(
+                new NamespacedKey(p, "blaze_rod"),
+                new ItemStack(Material.BLAZE_ROD)
+        );
+
+        r.shape("gcg",
+                "gwg",
+                "gcg");
+        r.setIngredient('g', Material.GOLD_BLOCK);
+        r.setIngredient('c', Material.COAL_BLOCK);
+        r.setIngredient('w', Material.STICK);
+
+        return r;
+    }
 }
