@@ -25,7 +25,6 @@ public class CraftPlusPlugin extends JavaPlugin {
             recipes.getDiamondHorseArmor(),
             recipes.getQuartz(),
             recipes.getTotem(),
-            recipes.getGoldApple(),
             recipes.getMailHelm(),
             recipes.getMailChest(),
             recipes.getMailPants(),

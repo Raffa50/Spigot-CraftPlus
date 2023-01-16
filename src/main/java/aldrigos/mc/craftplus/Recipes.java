@@ -168,21 +168,6 @@ public class Recipes {
         return r;
     }
 
-    public Recipe getGoldApple(){
-        var r = new ShapedRecipe(
-                new NamespacedKey(p, "goldenapple"),
-                new ItemStack(Material.GOLDEN_APPLE)
-        );
-
-        r.shape("ggg",
-                "gag",
-                "ggg");
-        r.setIngredient('g', Material.GOLD_BLOCK);
-        r.setIngredient('a', Material.APPLE);
-
-        return r;
-    }
-
     public Recipe getMailChest(){
         var r = new ShapedRecipe(
                 new NamespacedKey(p, "CHAINMAIL_CHESTPLATE"),
