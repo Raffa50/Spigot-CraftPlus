@@ -182,4 +182,60 @@ public class Recipes {
 
         return r;
     }
+
+    public Recipe getMailChest(){
+        var r = new ShapedRecipe(
+                new NamespacedKey(p, "CHAINMAIL_CHESTPLATE"),
+                new ItemStack(Material.CHAINMAIL_CHESTPLATE)
+        );
+
+        r.shape("x x",
+                "xxx",
+                "xxx");
+        r.setIngredient('x', Material.IRON_BARS);
+
+        return r;
+    }
+
+    public Recipe getMailHelm(){
+        var r = new ShapedRecipe(
+                new NamespacedKey(p, "CHAINMAIL_HELMET"),
+                new ItemStack(Material.CHAINMAIL_HELMET)
+        );
+
+        r.shape("xxx",
+                "x x",
+                "   ");
+        r.setIngredient('x', Material.IRON_BARS);
+
+        return r;
+    }
+
+    public Recipe getMailPants(){
+        var r = new ShapedRecipe(
+                new NamespacedKey(p, "CHAINMAIL_LEGGINGS"),
+                new ItemStack(Material.CHAINMAIL_LEGGINGS)
+        );
+
+        r.shape("xxx",
+                "x x",
+                "x x");
+        r.setIngredient('x', Material.IRON_BARS);
+
+        return r;
+    }
+
+    public Recipe getMailBoots(){
+        var r = new ShapedRecipe(
+                new NamespacedKey(p, "CHAINMAIL_BOOTS"),
+                new ItemStack(Material.CHAINMAIL_BOOTS)
+        );
+
+        r.shape("   ",
+                "x x",
+                "x x");
+        r.setIngredient('x', Material.IRON_BARS);
+
+        return r;
+    }
 }

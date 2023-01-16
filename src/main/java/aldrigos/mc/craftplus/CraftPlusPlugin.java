@@ -1,6 +1,5 @@
 package aldrigos.mc.craftplus;
 
-import aldrigos.mc.craftplus.listeners.ShovelListener;
 import org.bukkit.inventory.Recipe;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -26,10 +25,12 @@ public class CraftPlusPlugin extends JavaPlugin {
             recipes.getDiamondHorseArmor(),
             recipes.getQuartz(),
             recipes.getTotem(),
-            recipes.getGoldApple()
+            recipes.getGoldApple(),
+            recipes.getMailHelm(),
+            recipes.getMailChest(),
+            recipes.getMailPants(),
+            recipes.getMailBoots()
         );
-
-        getServer().getPluginManager().registerEvents(new ShovelListener(), this);
     }
 
     @Override
